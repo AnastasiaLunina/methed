@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 1-5 CRM-ShopOnline</title>
+</head>
+<body>
+    <form id="add-form" 
+          action="https://jsonplaceholder.typicode.com/posts" 
+          method="POST">
+        <fieldset style="width:500px">
+            <legend>Add product</legend>
+            <label for="name">Name:</label> 
+            <br>
+            <input type="text" id="name" name="product-name">
+            <br>
+            <label for="category">Category:</label> 
+            <br>
+            <input type="text" id="category" name="product-category">
+            <br>
+            <label for="units">Units:</label> 
+            <br>
+            <input type="number" id="units" name="product-units">
+            <br>
+            <label for="discount">Discount:</label> 
+            <br>
+            <input type="checkbox" name="product-discount">
+            <input type="number" id="discount" name="product-discount" disabled>
+            <br>
+            <label for="description">Desription:</label> 
+            <br>
+            <textarea id="description" 
+                    name="product-description" 
+                    cols="25" 
+                    rows="5">
+            </textarea>
+            <br>
+            <label for="quantity">Quantity:</label> 
+            <br>
+            <input type="number" id="quantity" name="product-quantity">
+            <br>
+            <label for="price">Price:</label> 
+            <br>
+            <input type="number" id="price" name="product-price">
+            <br>
+            <input type="file" 
+                multiple id="file" 
+                name="product-file" 
+                accept="image/jpeg,image/png">
+            <br>
+        </fieldset>
+        <button type="submit">Add product</button>
+    </form>
+</body>
+</html>

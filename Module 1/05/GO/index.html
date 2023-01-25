@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Module 1-5</title>
+</head>
+<body>
+    <img src="img/logo.svg" 
+         alt="go logo" 
+         aria-hidden="true" 
+         width="120px" 
+         height="66px">
+    
+         <h1>Menu</h1>
+    <ul>
+        <li><a href="#">Rooms</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Book</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+    <h2>We have everything to party with your friends!</h2>
+    <ul>
+        <li>
+            <img src="img/vr.png" 
+                 alt="VR headsets" 
+                 aria-hidden="true" 
+                 width="380px" 
+                 height="228px">
+            <br>
+            VR headsets
+        </li>
+        <li>
+            <img src="img/audio.png" 
+            alt="Audio-system 5.1 with outstanding sound" 
+            aria-hidden="true" 
+            width="380px" 
+            height="228px">
+            <br>
+            Audio-system 5.1 with outstanding sound
+        </li>
+        <li>
+            <img src="img/micro.png" 
+            alt="Karaoke (4 mics)" 
+            aria-hidden="true" 
+            width="380px" 
+            height="228px">
+            <br>
+            Karaoke (4 mics)
+        </li>
+        <li>
+            <img src="img/game.png" 
+            alt="Table games" 
+            aria-hidden="true" 
+            width="380px" 
+            height="228px">
+            <br>
+            Table games
+        </li>
+        <li>
+            <img src="img/netflix.png" 
+            alt="Movie services Netflix, IVI, MegoGo, KinoPoisk, Okko" 
+            aria-hidden="true" 
+            width="380px" 
+            height="228px">
+            <br>
+            Movie services Netflix, IVI, MegoGo, KinoPoisk, Okko
+        </li>
+        <li>
+            <img src="img/sony.png" 
+            alt="PlayStation 5" 
+            aria-hidden="true" 
+            width="380px" 
+            height="228px">
+            <br>
+            PlayStation 5
+        </li>
+    </ul>
+
+    <h2>Our rooms:</h2>
+    <ol>
+        <li><a href="vibes.html">80's vibes</a></li>
+        <li><a href="startwars.html">Star wars</a></li>
+        <li><a href="wildwest.html">Wild west</a></li>
+        <li><a href="neon.html">Neon style</a></li>
+    </ol>
+
+    <form id="book-form" 
+          action="https://jsonplaceholder.typicode.com/posts" 
+          method="POST">
+        <h2>Book</h2>
+
+        <fieldset style="width:500px">
+            <label for="vibes">
+                <input id="vibes" type="radio" name="rooms" value="80s">80's vibes
+            </label> 
+            <label for="starwars">
+                <input id="starwars" type="radio" name="rooms" value="starwars">Star wars
+            </label> 
+            <label for="wildwest">
+                <input id="wildwest" type="radio" name="rooms" value="wildwest">Wild west
+            </label> 
+            <label for="neonstyle">
+                <input id="neonstyle" type="radio" name="rooms" value="neonstyle">Neon style
+            </label> 
+        </fieldset>
+
+        <fieldset style="width:500px">
+            <legend>Customize your entertainment set</legend>
+            <fieldset style="width:450px">
+                <legend>Game consoles</legend>
+                <label for="playstation">
+                    <input id="playstation" type="radio" name="games" value="playstation">PlayStation
+                </label> 
+                <label for="sega">
+                    <input id="sega" type="radio" name="games" value="sega">Sega Mega Drive
+                </label> 
+                <label for="xbox">
+                    <input id="xbox" type="radio" name="games" value="xbox">X-box
+                </label> 
+                <label for="dendy">
+                    <input id="dendy" type="radio" name="games" value="dendy">Dendy
+                </label> 
+            </fieldset>
+
+            <fieldset style="width:450px">
+                <legend>Table games</legend>
+                <label for="jenga">
+                    <input id="jenga" type="checkbox" name="table-games" value="jenga">Jenga
+                </label> 
+                <label for="monopoly">
+                    <input id="monopoly" type="checkbox" name="table-games" value="monopoly">Monopoly
+                </label> 
+                <label for="munchkin">
+                    <input id="munchkin" type="checkbox" name="table-games" value="munchkin">Munchkin
+                </label> 
+                <label for="alias">
+                    <input id="alias" type="checkbox" name="table-games" value="alias">Alias
+                </label> 
+            </fieldset>
+
+            <fieldset style="width:450px">
+                <legend>Additional</legend>
+                <label for="karaoke">
+                    <input id="karaoke" type="checkbox" name="additional-games" value="karaoke">Karaoke
+                </label> 
+                <label for="vr">
+                    <input id="vr" type="checkbox" name="additional-games" value="vr">VR
+                </label> 
+            </fieldset>
+        </fieldset>
+
+        <fieldset style="width:500px">
+            <legend>Choose date and time</legend>
+            <label for="date">
+                Date<input type="date" id="date" name="date" required>
+            </label> 
+            <label for="time">
+                Time<input type="time" id="time" name="time" required>
+            </label> 
+            <br>
+            <label for="quantity">
+                How many guests<input type="number" inputmode="numeric" id="quantity" name="guests-quantity" required>
+            </label> 
+            <br>
+            <label for="first-name">
+                First Name<input type="text" id="first-name" name="first-name" required>
+            </label>
+            <br>
+            <label for="last-name">
+                Last Name<input type="text" id="last-name" name="last-name" required>
+            </label> 
+            <br>
+            <label for="phone">
+                Phone<input type="tel" id="phone" name="phone" inputmode="tel" required>
+            </label> 
+            <br>
+            <label for="age">
+                <input id="age" type="checkbox" name="age" value="age" required>I am at least 18 years old
+            </label> 
+        </fieldset>
+
+        <button type="submit">Book</button>
+        <label for="policy">
+            <input id="policy" type="checkbox" name="policy" value="policy" required>I agree to privacy policy
+        </label> 
+    </form>
+
+    <h2>About us</h2>
+    <p>Для наших гостей мы создали <em>концептуально новое игровое пространство виртуальной реальности</em> в центральной части города.</p>
+    <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас только топовыми игровыми разработками со всего мира.</p>
+
+    <div>
+        <blockquote>
+            <p><strong>GAME OVER - </strong>это место незабываемых впечатлений</p>
+            <cite><em>Аркадий Абакшин, создатель игровой территории GAME OVER</em></cite>
+
+        </blockquote>
+    </div>
+
+    <h2>Contacts</h2>
+    <p>г. Москва ул. Аквамарина, 16</p>
+    <a href="tel:89509302893">8(950)930-28-93</a>
+    <br>
+    <a href="mailto:GameOver@gmail.com?subject=Help&body=Hello">GameOver@gmail.com</a>
+
+    <ul>
+        <li><a href="https://vk.com/">Vkontakte</a></li>
+        <li><a href="https://telegram.org/">Telegram</a></li>
+    </ul>
+
+</body>
+</html>
