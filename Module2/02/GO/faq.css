@@ -1,0 +1,32 @@
+.faq__list_item {
+    background-color: #fff;
+    color: #1C1A1A;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 70px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.faq__list_item:nth-child(even) {
+    background-color: #440F51;
+    color: #fff;
+}
+
+.faq__list_item::after {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("./img/open-purple.svg");
+    background-size: contain;
+}
+
+.faq__list_item:nth-child(even):after {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("./img/open.svg");
+    background-size: contain;
+}
