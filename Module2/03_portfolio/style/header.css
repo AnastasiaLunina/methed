@@ -1,0 +1,47 @@
+.header {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.logo__image {
+    width: 108px;
+    height: 55px;
+}
+
+.menu__item {
+    list-style-type: none;
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.list__item_active {
+    color: #ffb822;
+}
+
+.searchfield {
+    width: 280px;
+    height: 55px;
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #cccccc;
+    font-weight: 900;
+    font-family: "Roboto";
+    background-image: url('../image/search.svg');
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.searchfield:after {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("../image/magnifying.svg");
+    background-size: contain;
+}

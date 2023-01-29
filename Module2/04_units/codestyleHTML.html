@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Code Style HTML</title>
+</head>
+
+<body>
+  <article class="article">
+    <h1>Code Style HTML</h1>
+    <ul class="list">
+      <li class="list__item">
+        <a href="https://quper.notion.site/Code-Style-HTML-6cabd2a939ad42f086410779e18a1066" target="_blank">Code Style HTML</a>
+      </li>
+      <li class="list__item">
+        <a href="https://quper.notion.site/Code-Style-CSS-5021e31124f8489a9bce3a7097e99858" target="_blank">Code Style CSS</a>
+      </li>
+      <li class="list__item">        
+        <a href="https://quper.notion.site/Code-Style-Javascript-b46b53a200ba41cb81b4bfcb9ba283ca" target="_blank">Code Style Javascript для Верстальщика</a> 
+      </li>
+    </ul>
+
+    <article class="article">
+      <section class="section">
+        <h2>!DOCTYPE</h2>
+        <p>В начале страницы обязательно должен быть указан актуальный &#60DOCTYPE html&#62, чтобы работать в режиме
+          стандартов и последовательного рендеринга элементов в каждом доступном браузере.
+        </p>
+      </section>
+
+      <section class="section">
+        <h3>Атрибут локализации</h3>
+        <p>Для элемента &#60html&#62 в атрибуте lang должен указываться соответствующий язык документа.
+        </p>
+        <p>Это нужно для правильной работы синтеза речи, для переводчиков и поисковиков.</p>
+
+        <blockquote>
+          <h4>Вырезка из спецификации HTML5</h4>
+          <p>
+            Разработчикам рекомендуется указывать атрибут языка в начале html файла, тем самым указывая на
+            принадлежность языка документа. Это способствует инструментам генерации голоса определить то, какое
+            произношение использовать, а инструментам перевода определить каким правилам придерживаться и так далее.
+          </p>
+        </blockquote>
+      </section>
+
+      <section class="section">
+        <h3>Кодировка символов документа</h3>
+        <p>Кодировка символов на странице всегда должна быть явно указана, чтобы обеспечить корректное отображение
+          текста.</p>
+        <p>Для Кириллицы нужно использовать UTF-8 кодировку, убедитесь что ваш документ так же имеет кодировку UTF-8</p>
+        <img class ="img" src="image/coding.png" alt="Кодировка символов документа" aria-hidden="true">
+      </section>
+
+      <section class="section">
+        <h3>Базовый синтаксис</h3>
+        <p>Теги и их атрибуты пишутся строчными буквами.</p>
+        <p>Для значений атрибутов всегда используются двойные кавычки.</p>
+        <p>Для отступов у вложенных элементов используется отступ в 2 пробела (или табуляция размером 2 пробела).</p>
+        <img class ="img" src="image/basic-syntax.png" alt="Базовый синтаксис" aria-hidden="true">
+      </section>
+
+      <section class="section">
+        <h3>Закрывающие теги</h3>
+        <p>Закрывающий слеш у одиночных тегов (&#60img&#62, &#60br&#62 и другие) не ставится.</p>
+        <p>В остальных случаях , как &#60body&#62&#60/body&#62, &#60p&#62&#60/p&#62  или &#60li&#62&#60/li&#62,
+          обязателен закрывающий тег.</p>
+      </section>
+    </article>
+
+    <article class="article">
+      <h2>Подключение стилей</h2>
+      <p>Файл стилей подключается с помощью тега &#60link&#62 внутри тега &#60head&#62. </p>
+      <p>Обязательный атрибут rel - со значением stylesheet, иначе браузер не поймет что вы подключили.</p>
+      <p>Атрибут type="text/css” писать не нужно в современной версии HTML</p>
+      <img class ="img" src="image/connect-styles.png" alt="Подключение стилей" aria-hidden="true">
+    </article>
+
+    <article class="article">
+      <section class="section">
+        <h2>Атрибуты</h2>
+        <p>Атрибут класса у HTML-элементов пишется первым. </p>
+        <p>Так проще распознать его, остальные атрибуты можно указывать в любом порядке, но желательно чтобы их порядок
+          от элемента к элементу сохранялся.</p>
+        <p>Для логических атрибутов, таких как checked, disabled, required и тд, значение не указывается</p>
+      </section>
+
+      <section class="section">
+        <h3>ALT - атрибут</h3>
+        <p>Обязательно нужно указывать атрибут alt у тега img, чтобы было чем его "заменить" если вдруг изображение не
+          загрузилось</p>
+        <p>Так же значение alt атрибута очень важно, для людей использующих вспомогательные технологии, например
+          экранные читалки, они не видят интерфейс, а "читают" сайты с помощью экранного диктора. Программа зачитывает
+          для них alt атрибут чтобы было понятно что на изображении.
+        </p>
+      </section>
+
+      <section class="section">
+        <h3>Валидность HTML</h3>
+        <p>Документ должен проходить проверку на валидность HTML. </p>
+        <p>Для проверки используется валидатор w3c</p>
+        <a href="https://validator.w3.org/#validate_by_input">https://validator.w3.org/#validate_by_input</a>
+      </section>
+
+      <a class="index__link" href="./index.html">
+        <button class="index__button">Назад</button>
+      </a>
+    </article>
+  </article>
+</body>
+
+</html>
