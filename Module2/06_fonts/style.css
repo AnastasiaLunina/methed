@@ -17,7 +17,7 @@ body {
 }
 
 .article {
-    width: 1770px;
+    min-width: 1770px;
     margin-right: 75px;
     margin-left: 81px;
 }
@@ -54,8 +54,8 @@ body {
 .section__shoes-care {
     margin-top: 47px;
     margin-bottom: 61px;
-    width: 1095px;
-    height: 594px;
+    max-width: 1095px;
+    min-height: 594px;
 }
 
 .heading__shoes-care {
@@ -74,12 +74,4 @@ body {
 
 .shoes_paragraph_wrapper {
     height: 219px;
-}
-
-.section__shoes-care-second {
-    height: 594px;
-    width: 1095px;
-    font-size: 22px;
-    line-height: 33px;
-    color: #2d2d2d;
 }
