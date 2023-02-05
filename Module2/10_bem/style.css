@@ -16,13 +16,13 @@ body {
     font-family: 'Lato', 'Arial', sans-serif;
 }
 
-.article {
+.shoes {
     min-width: 1770px;
     margin-right: 75px;
     margin-left: 81px;
 }
 
-.article__heading {
+.shoes__heading {
     width: 870px;
     height: 54px;
     font-size: 50px;
@@ -33,32 +33,32 @@ body {
     margin-bottom: 70px;
 }
 
-.section__shoes {
+.shoes__intro {
     font-size: 22px;
     line-height: 33px;
     color: #2d2d2d;
     margin-bottom: 52px;
 }
 
-.shoes_list-item {
+.shoes__intro_item {
     font-size: 16px;
     line-height: 24px;
     color: #525252;
 }
 
-.shoes_image {
+.shoes__intro_image {
     width: 1097px;
     height: 563px;
 }
 
-.section__shoes-care {
+.shoes__care {
     margin-top: 47px;
     margin-bottom: 61px;
     max-width: 1095px;
     min-height: 594px;
 }
 
-.heading__shoes-care {
+.shoes__care_heading {
     font-size: 22px;
     line-height: 33px;
     color: #2d2d2d;
@@ -66,7 +66,7 @@ body {
     width: 1095px;
 }
 
-.paragraph__shoes-care, .section__shoes_paragraph {
+.shoes__care_paragraph, .section__shoes_paragraph {
     font-size: 22px;
     line-height: 33px;
     color: #2d2d2d;
