@@ -1,0 +1,126 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.form__border-outer {
+    max-width: 792px;
+    background-color: #f4f2ff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.form__button-cancel {
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    height: 20px;
+    width: 20px;
+    border: none;
+}
+
+.form__heading {
+    max-width: 258px;
+    min-height: 29px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #6E6893;
+    margin: 32px 0 43px 106px;
+}
+
+.container {
+    max-width: 580px;
+}
+
+.form__border-inner {
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 0 106px 0 106px;
+    border: none;
+    padding: 29px 29px;
+}
+
+.form__label {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #6E6893;
+    padding-left: 10px;
+}
+
+.form__label:first-of-type {
+    margin: 28px 0 5px 0;
+}
+
+.form__label:not(:first-of-type) {
+    margin: 12px 0 5px 0;
+}
+
+.form__input {
+    width: 524px;
+    display: block;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f4f2ff;
+}
+
+.form__input-discount {
+    max-width: 470px;
+    background-color: #eeeeee;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form__input-discount-checkbox {
+    width: 40px;
+    background-color: #f4f2ff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.form__input-discount-checkbox:checked {
+    background-color: #f4f2ff;
+    background-image: url("../image/check.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.form__textarea {
+    width: 524px;
+    height: 112px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f4f2ff;
+    resize: none;
+}
+
+.form__button-submit {
+    width: 200px;
+    height: 39px;
+    background: #6D5BD0;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    margin: 32px 134px 28px 458px;
+    cursor: pointer;
+}
