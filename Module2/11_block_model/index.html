@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+  <title>Form</title>
+</head>
+
+<body>
+  <section class="modal">
+    <div class="container">
+        <form class="form" id="add-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+          <fieldset class="form__border-outer">
+            <button class="form__button-cancel">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 2L22 22" stroke="#6E6893" stroke-width="3" stroke-linecap="round"/>
+                <path d="M2 22L22 2" stroke="#6E6893" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </button>
+            <h1 class="form__heading">Add product</h1>
+            <fieldset class="form__border-inner">
+              <label class="form__label" for="name">Name:</label>
+              <input class="form__input" type="text" id="name" name="product-name">
+              <label class="form__label" for="category">Category:</label>
+              <input class="form__input" type="text" id="category" name="product-category">
+              <label class="form__label" for="units">Units:</label>
+              <input class="form__input" type="number" id="units" name="product-units">
+              <label class="form__label" for="discount">Discount:</label>
+              <input class="form__input form__input-discount-checkbox" type="checkbox" name="product-discount">
+              <input class="form__input form__input-discount" type="number" id="discount" name="product-discount" disabled>
+              <label class="form__label" for="description">Desription:</label>
+              <textarea class="form__textarea" id="description" name="product-description" cols="25" rows="5"></textarea>
+              <label class="form__label" for="quantity">Quantity:</label>
+              <input class="form__input" type="number" id="quantity" name="product-quantity">
+              <label class="form__label" for="price">Price:</label>
+              <input class="form__input" type="number" id="price" name="product-price">
+            </fieldset>
+            <button class="form__button-submit" type="submit">Add product</button>
+          </fieldset>
+        </form>
+      </div>
+  </section>
+
+</body>
+
+</html>
