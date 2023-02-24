@@ -1,0 +1,11 @@
+.prevnext {
+    margin-bottom: 50px;
+}
+
+.prevnext__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
