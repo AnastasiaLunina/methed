@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Code Style CSS</title>
+</head>
+
+<body>
+  <article class="article">
+    <h1>Code Style CSS</h1>
+
+    <ul class="list">
+        <li class="list__item">
+          <a href="https://quper.notion.site/Code-Style-HTML-6cabd2a939ad42f086410779e18a1066" target="_blank">Code Style HTML</a>
+        </li>
+        <li class="list__item">
+          <a href="https://quper.notion.site/Code-Style-CSS-5021e31124f8489a9bce3a7097e99858" target="_blank">Code Style CSS</a>
+        </li>
+        <li class="list__item">        
+          <a href="https://quper.notion.site/Code-Style-Javascript-b46b53a200ba41cb81b4bfcb9ba283ca" target="_blank">Code Style Javascript для Верстальщика</a> 
+        </li>
+      </ul>
+
+      <section class="section">
+        <p>Хороший код — это код который удобно читать и поддерживать.</p>
+        <p>Хороший код должен быть простым:</p>
+  
+        <ul class="list">
+          <li class="list__item">&#8212; используйте легко читаемые селекторы и говорящие классы. По ним сразу можно понять к чему применяются стили.</li>
+          <li class="list__item">&#8212; классы пишите в нижнем регистре (строчными буквами).</li>
+          <li class="list__item">&#8212; вместо пробела в классах используйте знак «дефис». Старайтесь не использовать нижнее подчеркивание и camelCase.</li>
+          <li class="list__item">&#8212; код должен быть в одном стиле: везде используется один порядок свойств, одинаковые отступы и пробелы, один стиль записи цветов и псевдоэлементов.</li>
+        </ul>
+  
+        <div>
+          <p>плохо</p>
+          <img class ="img" src="./image/bad.png" alt="" aria-hidden="true">
+        </div>
+  
+        <div>
+          <p>хорошо</p>
+          <img class ="img" src="./image/good.png" alt="" aria-hidden="true">
+        </div>
+
+      <section class="section">
+        <p>Оформляем блок со свойствами:</p>
+
+        <ul class="list">
+          <li class="list__item">&#8212; используйте легко читаемые селекторы и говорящие классы. По ним сразу можно понять к чему применяются стили.</li>
+          <li class="list__item">&#8212; классы пишите в нижнем регистре (строчными буквами).</li>
+          <li class="list__item">&#8212; вместо пробела в классах используйте знак «дефис». Старайтесь не использовать нижнее подчеркивание и camelCase.</li>
+          <li class="list__item">&#8212; код должен быть в одном стиле: везде используется один порядок свойств, одинаковые отступы и пробелы, один стиль записи цветов и псевдоэлементов.</li>
+        </ul>
+  
+        <div>
+          <p>Между набором правил оставляйте одну пустую строку:</p>
+          <img class ="img" src="./image/blank.png" alt="" aria-hidden="true">
+        </div>
+      </section>
+
+      <ul class="list">
+        <li class="list__item">Все стили пишем через селектор класса. Теги используем только для глобальных стилей, <strong>id</strong> в стилях не используем.</li>
+        <li class="list__item">Избегайте использование <strong>!important</strong>.</li>
+        <li class="list__item">Псевдокласс <strong>nth-child</strong> используем только со значениями <strong>even</strong> и <strong>odd</strong>. В остальных случая используем дополнительный класс.</li>
+        <li class="list__item">
+          Сохраняйте уровень вложенности не более двух элементов, если не используем БЭМ.
+          <ul>
+            <li class="list__item">&#8212; Плохо: <strong>.block .faq .title</strong></li>
+            <li class="list__item">&#8212; Хорошо: <strong>.faq .title</strong></li>
+          </ul>
+        </li>
+        <li class="list__item">При использовании БЭМ вложенность не используется.</li>
+        <li class="list__item">Обязательно указывайте альтернативный вид и тип семейства шрифтов.</li>
+        <li class="list__item">Проверяйте вёрстку на переполнение.</li>
+        <li class="list__item">У интерактивных элементов обязательны стили состояний: <strong>hover, focus, active, disabled.</strong></li>
+        <li class="list__item">Если используете свойство <strong>display: inline-block</strong>, обязательно добавляйте свойство <strong>vertical-align</strong>.</li>
+        <li class="list__item">Свойство <strong>position</strong> используем в крайнем случае. Исключение: если иначе сделать невозможно или сложно.</li>
+        <li class="list__item">У нулевых значений не нужно писать единицы измерения. Когда значение <strong>0</strong>, то не важно это px, % или попугайчики.</li>
+        <li class="list__item">Значения цвета <strong>hex</strong> пишем в нижнем регистре.</li>
+        <li class="list__item">
+          <a href="https://jigsaw.w3.org/css-validator/" target="_blank">Проверяйте css в валидаторе — https://jigsaw.w3.org/css-validator/</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Дополнительно</h2>
+      <p>В названиях файлов и папок используйте только латиницу и буквы в нижнем регистре, без пробелов. Для разделения слов используйте «дефис» или нижние подчёркивание. </p>
+    </section>
+
+    <a class="index__link" href="./index.html">
+      <button class="index__button">Назад</button>
+    </a>
+  </article>
+</body>
+
+</html>

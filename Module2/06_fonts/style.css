@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Lato";
+    src: local("Lato"), url('./fonts/lato-regular.woff2') format("woff2"),
+                        url('./fonts/lato-regular.woff') format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: local("Lato"), url('./fonts/lato-bold.woff2') format("woff2"),
+                        url('./fonts/lato-bold.woff') format("woff");
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+.article {
+    min-width: 1770px;
+    margin-right: 75px;
+    margin-left: 81px;
+}
+
+.main__heading {
+    width: 870px;
+    height: 54px;
+    font-size: 50px;
+    line-height: 65px;
+    color: #2d2d2d;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.section__shoes {
+    font-size: 22px;
+    line-height: 33px;
+    color: #2d2d2d;
+    margin-bottom: 52px;
+}
+
+.shoes_list-item {
+    font-size: 16px;
+    line-height: 24px;
+    color: #525252;
+}
+
+.shoes_image {
+    width: 1097px;
+    height: 563px;
+}
+
+.section__shoes-care {
+    margin-top: 47px;
+    margin-bottom: 61px;
+    max-width: 1095px;
+    min-height: 594px;
+}
+
+.heading__shoes-care {
+    font-size: 22px;
+    line-height: 33px;
+    color: #2d2d2d;
+    font-weight: 700;
+    width: 1095px;
+}
+
+.paragraph__shoes-care, .section__shoes_paragraph {
+    font-size: 22px;
+    line-height: 33px;
+    color: #2d2d2d;
+}
+
+.shoes_paragraph_wrapper {
+    height: 219px;
+}
