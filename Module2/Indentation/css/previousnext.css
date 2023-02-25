@@ -9,3 +9,31 @@
     line-height: 120%;
     margin-bottom: 30px;
 }
+
+.prevnext__list-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.prevnext__list-item:last-child {
+    margin-bottom: 0;
+}
+
+.prevnext__list-item:nth-of-type(4) {
+    margin-bottom: 115px;
+}
+
+.prevnext__img:first-child {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.prevnext__img:last-of-type {
+    float: right;
+    padding-left: 40px;
+}

@@ -1,41 +1,46 @@
-.introduction {
-    padding-top: 60px;
+.resetmargin {
     margin-bottom: 50px;
 }
 
-.introduction__title {
+.resetmargin__title {
     font-style: normal;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 36px;
     line-height: 120%;
-    color: #000000;
     margin-bottom: 30px;
 }
 
-.introduction__paragraph {
+.resetmargin__paragraph {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
     color: #000000;
-}
-
-.introduction__paragraph:first-of-type {
     margin-bottom: 30px;
 }
 
-.introduction__paragraph:last-of-type {
-    margin-bottom: 50px;
+.resetmargin__img {
+    margin-bottom: 30px;
 }
 
-.introduction__content {
+.resetmargin__img-center {
+    display: block;
+    margin: 0 auto 30px auto;
+}
+
+.resetmargin__img-reset {
+    margin-bottom: 0;
+    display: block;
+}
+
+.resetmargin__content {
     width: 1140px;
     min-height: 215px;
     background-color: #f1f1f1;
     border-radius: 10px;
 }
 
-.introduction__content_title {
+.resetmargin__content_title {
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -45,23 +50,23 @@
     margin-bottom: 20px;
 }
 
-.introduction__content_list {
+.resetmargin__content_list {
     padding-left: 70px;
-    color: #02535F;
 }
 
-.introduction__content_link {
+.resetmargin__content_item {
+    margin-bottom: 10px;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
-    color: #02535F;
+    color: #000000;
 }
 
-.introduction__content_item {
-    margin-bottom: 10px;
+.resetmargin__content_item:last-child {
+    margin-bottom: 30px;
 }
 
-.introduction__content_item:last-child {
-    margin-bottom: 0;
+.resetmargin__paragraph:last-child {
+    padding: 0 30px 25px 45px;
 }
