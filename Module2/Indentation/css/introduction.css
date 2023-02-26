@@ -1,6 +1,6 @@
 .introduction {
     padding-top: 60px;
-    margin-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 .introduction__title {
@@ -10,6 +10,10 @@
     line-height: 120%;
     color: #000000;
     margin-bottom: 30px;
+}
+
+.introduction__paragraph-wrapper {
+    margin-bottom: 50px;
 }
 
 .introduction__paragraph {
@@ -25,7 +29,7 @@
 }
 
 .introduction__paragraph:last-of-type {
-    margin-bottom: 50px;
+    margin-bottom: 0;
 }
 
 .introduction__content {
@@ -33,6 +37,7 @@
     min-height: 215px;
     background-color: #f1f1f1;
     border-radius: 10px;
+    padding: 25px 0 0 45px;
 }
 
 .introduction__content_title {
@@ -41,7 +46,6 @@
     font-size: 44px;
     line-height: 120%;
     color: #000000;
-    padding: 25px 0 0 45px;
     margin-bottom: 20px;
 }
 
@@ -56,6 +60,7 @@
     font-size: 20px;
     line-height: 120%;
     color: #02535F;
+    border-bottom: 1px solid #02535F;
 }
 
 .introduction__content_item {

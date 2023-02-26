@@ -1,5 +1,6 @@
 .resetmargin {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-top: 25px;
 }
 
 .resetmargin__title {
