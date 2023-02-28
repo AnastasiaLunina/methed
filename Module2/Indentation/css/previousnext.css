@@ -3,14 +3,6 @@
     padding-top: 25px;
 }
 
-.prevnext__title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 120%;
-    margin-bottom: 30px;
-}
-
 .prevnext__list-item {
     font-style: normal;
     font-weight: 400;
@@ -24,14 +16,17 @@
     margin-bottom: 0;
 }
 
-.prevnext__list-item:nth-of-type(4) {
+.prevnext__list {
     margin-bottom: 115px;
+}
+
+.prevnext__list-bottom {
+    margin-bottom: 0;
 }
 
 .prevnext__img:first-child {
     float: left;
     margin-right: 30px;
-    margin-bottom: 30px;
 }
 
 .prevnext__img:last-of-type {

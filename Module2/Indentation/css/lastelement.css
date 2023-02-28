@@ -3,14 +3,6 @@
     padding-top: 25px;
 }
 
-.lastelement__title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 120%;
-    margin-bottom: 30px;
-}
-
 .lastelement__paragraph {
     font-style: normal;
     font-weight: 400;
@@ -20,13 +12,12 @@
     margin-bottom: 30px;
 }
 
-.lastelement__img {
-    margin-bottom: 30px;
+.lastelement__paragraph:last-child {
+    margin-bottom: 0;
 }
 
-.lastelement__img-center {
-    display: block;
-    margin: 0 auto 30px auto;
+.lastelement__img {
+    margin-bottom: 30px;
 }
 
 .lastelement__wrapper-light {
