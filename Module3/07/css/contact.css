@@ -1,0 +1,90 @@
+.contact {
+    background-image: linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)), url('../assets/img/footer.png');
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+}
+
+.contact__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 50px;
+}
+
+.contact__input-name,
+.contact__input-tel, 
+.contact__input-mail {
+    width: 423px;
+    height: 44px;
+    color: #FFFFFF;
+    background: transparent;
+    border-radius: 50px;
+    margin-bottom: 21px;
+    border: 1px solid #ffffff;
+    padding: 9px 0 0 25px;
+
+}
+
+.contact__input-mail {
+    margin-bottom: 50px;
+}
+
+.contact input::placeholder {
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.contact__btn {
+    width: 210px;
+    height: 48px;
+    color: #FFFFFF;
+    background: #15A9CB;
+    box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.contact__agree {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact__agree a {
+    color: #4A76A8;
+    border-bottom: 1px solid #4A76A8;
+}

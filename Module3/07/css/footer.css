@@ -1,0 +1,32 @@
+.footer {
+    padding: 45px 0;
+    background-color: #2F324B;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer__par-container {
+    padding-left: 19px;
+}
+
+.footer__par {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer__par-dev-mobile {
+    display: none;
+}

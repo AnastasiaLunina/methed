@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Arial;
+    src: local("Arial");
+    font-weight: 400;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Arial Black";
+    src: local("Arial Black");
+    font-weight: 700;
+    font-display: swap;
+}
+
+/*
+Пример контейнера
+Если контейнер 1180px по макету,
+то для max-width прибавляем паддинги 30px*2, 
+в итоге 1240px
+Чтобы контент не прижимался к краям экрана
+*/
+.container {
+    max-width: 1260px;
+    /* padding: 0 30px; */
+    margin: 0 auto;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+blockquote {
+    text-transform: uppercase;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* common styles */
+.logo svg {
+    width: 60px;
+    height: 60px;
+}
+
+.contact-img {
+    display: none;
+}
+
+.contact__container {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+}
+
+.contact-phone {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.85px;
+    line-height: 28px;
+}
+
+.contact-callback {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.contact-callback-link {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.contact-img {
+    display: none;
+}
