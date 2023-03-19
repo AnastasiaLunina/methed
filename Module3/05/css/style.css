@@ -50,7 +50,7 @@ svg {
 
 .contact__container {
     text-align: center;
-    color: #FFFFFF;
+    color: var(--white);
     font-family: 'Roboto';
 }
 
@@ -70,8 +70,4 @@ svg {
 
 .contact-callback-link {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.contact-img {
-    display: none;
 }

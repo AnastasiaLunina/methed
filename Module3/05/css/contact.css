@@ -7,7 +7,7 @@
 }
 
 .contact__content {
-    position: relative;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,7 @@
     font-size: 35px;
     line-height: 41px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--white);
     margin-bottom: 17px;
 }
 
@@ -41,13 +41,12 @@
 .contact__input-mail {
     width: 423px;
     height: 44px;
-    color: #FFFFFF;
+    color: var(--white);
     background: transparent;
     border-radius: 50px;
     margin-bottom: 21px;
-    border: 1px solid #ffffff;
+    border: 1px solid var(--white);
     padding: 9px 0 0 25px;
-
 }
 
 .contact__input-mail {
@@ -61,10 +60,10 @@
 }
 
 .contact__btn {
-    width: 210px;
+    width: 218px;
     height: 48px;
-    color: #FFFFFF;
-    background: #15A9CB;
+    color: var(--white);
+    background: var(--blue);
     box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
     border-radius: 50px;
     border: none;
@@ -80,11 +79,97 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    text-align: center;
-    color: #FFFFFF;
+    /* text-align: center; */
+    color: var(--white);
 }
 
 .contact__agree a {
     color: #4A76A8;
     border-bottom: 1px solid #4A76A8;
+}
+
+@media all and (max-width:1298px) {
+    .contact {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 56px;
+
+    }
+
+    .contact__title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .contact__text {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .contact__input-name,
+    .contact__input-tel, 
+    .contact__input-mail {
+        width: 377px;
+        height: 39px;
+        margin-bottom: 21px;
+        padding: 8px 0 0 23px;
+    }
+
+    .contact input::placeholder {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .contact__agree {
+        font-size: 17px;
+        line-height: 20px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .contact {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .contact__title {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 10px;
+    }
+    
+    .contact__text {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 35px;
+    }
+    
+    .contact__input-name,
+    .contact__input-tel, 
+    .contact__input-mail {
+        width: 100%;
+        height: 28px;
+        padding: 6px 0 6px 18.06px;
+        margin-bottom: 15px;
+    }
+
+    .contact__input-mail {
+        margin-bottom: 45px
+    }
+
+    .contact input::placeholder {
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .contact__btn {
+        font-size: 16px;
+        line-height: 19px;    
+        margin-bottom: 30px;
+    }
+
+    .contact__agree {
+        width: 100vw;
+    }
 }
