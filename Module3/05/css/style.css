@@ -44,30 +44,30 @@ svg {
     height: 60px;
 }
 
-.contact-img {
+.logo__img {
     display: none;
 }
 
-.contact__container {
+.logo__container {
     text-align: center;
     color: var(--white);
     font-family: 'Roboto';
 }
 
-.contact-phone {
+.logo__phone {
     font-style: normal;
     font-weight: 400;
     font-size: 23.85px;
     line-height: 28px;
 }
 
-.contact-callback {
+.logo__callback {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
 }
 
-.contact-callback-link {
+.logo__callback-link {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }

@@ -13,9 +13,10 @@
     margin-bottom: 120px;
 }
 
-.header__wrapper {
+.wrapper {
     max-width: 960px;
     margin: 0 auto;
+    padding-bottom: 120px;
 }
 
 .header__title {
@@ -38,13 +39,9 @@
     margin-bottom: 90px;
 }
 
-.header__btn-wrapper {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 120px;
-}
-
 .header__btn {
+    display: flex;
+    margin: auto;
     background: var(--blue);
     box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
     border-radius: 50px;
@@ -69,12 +66,12 @@
         margin-bottom: 70px;
     }
 
-    .contact-phone {
+    .logo__phone {
         font-size: 21px;
         line-height: 25px;
     }
 
-    .contact-callback {
+    .logo__callback {
         font-size: 13px;
         line-height: 15px;
     }
@@ -90,7 +87,7 @@
         margin-bottom: 60px;
     }
 
-    .header__btn-wrapper {
+    .wrapper {
         padding-bottom: 70px;
     }
 
@@ -105,15 +102,15 @@
 }
 
 @media all and (max-width:680px) {
-    .contact-phone {
+    .logo__phone {
         display: none;
     }
 
-    .contact-callback {
+    .logo__callback {
         display: none;
     }
 
-    .contact-img {
+    .logo__img {
         display: block;
         width: 60px;
         height: 60px;
@@ -124,7 +121,7 @@
     .header {
         margin-bottom: 17.5px;
     }
-    .contact-img {
+    .logo__img {
         display: block;
         width: 24px;
         height: 24px;
@@ -154,7 +151,7 @@
         line-height: 19px;
     }
 
-    .header__btn-wrapper {
+    .wrapper {
         padding-bottom: 65px;
     }
 }
