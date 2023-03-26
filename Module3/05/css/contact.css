@@ -1,7 +1,7 @@
 .contact {
     background-image: linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)), url('../assets/img/footer.png');
     background-repeat: no-repeat;
-    padding: 70px 0;
+    padding: 50px 0;
     background-size: cover;
     background-position: center;
 }
@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding-top: 20px;
 }
 
 .contact__title {
@@ -23,6 +23,7 @@
     text-align: center;
     color: var(--white);
     margin-bottom: 17px;
+    margin-right: 20px;
 }
 
 .contact__text {

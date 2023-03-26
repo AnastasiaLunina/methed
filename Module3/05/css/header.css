@@ -10,7 +10,7 @@
 .header__nav {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
+    margin-bottom: 115px;
 }
 
 .wrapper {
@@ -25,7 +25,7 @@
     line-height: 61px;
     text-align: center;
     color: rgba(255, 255, 255, 0.86);
-    margin-bottom: 35px;
+    margin-bottom: 33px;
 }
 
 .header__par {

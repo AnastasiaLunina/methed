@@ -62,7 +62,8 @@
 
 .about__advantage-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 9px;
 }
 
 .about__advantage-element {
@@ -70,6 +71,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 46px;
+}
+
+.about__advantage-element:first-of-type {
+    padding-left: 11px;
 }
 
 .about__advantage-element-number {
@@ -97,6 +103,10 @@
     line-height: 28px;
     text-align: center;
     color: #383A4C;
+}
+
+.wrapper__perfect {
+    padding-bottom: 0;
 }
 
 @media all and (max-width:1298px) {

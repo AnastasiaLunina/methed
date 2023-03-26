@@ -39,9 +39,13 @@ svg {
 }
 
 /* common styles */
+.logo {
+    padding-left: 30px;
+}
+
 .logo svg {
-    width: 60px;
-    height: 60px;
+    width: 68px;
+    height: 68px;
 }
 
 .logo__img {
@@ -52,6 +56,8 @@ svg {
     text-align: center;
     color: var(--white);
     font-family: 'Roboto';
+    margin-right: 31px;
+    padding-top: 9px;
 }
 
 .logo__phone {
@@ -66,6 +72,7 @@ svg {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    padding-top: 5px;
 }
 
 .logo__callback-link {

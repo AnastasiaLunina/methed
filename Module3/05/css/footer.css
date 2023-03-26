@@ -1,5 +1,5 @@
 .footer {
-    padding: 45px 0;
+    padding: 68px 0 38px 0;
     background-color: var(--grey);
 }
 
@@ -16,15 +16,26 @@
 
 .footer__par-container {
     padding-left: 19px;
+    margin-bottom: 10px;
+    padding-top: 5px;
 }
 
 .footer__par {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 12.5px;
     line-height: 17px;
     color: var(--white);
+}
+
+.footer__par-dev {
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.logo__callback-link-perfect {
+    margin-bottom: 13px;
 }
 
 .aside__par-dev-mobile-container {
