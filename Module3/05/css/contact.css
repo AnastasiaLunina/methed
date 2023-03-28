@@ -87,7 +87,6 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    /* text-align: center; */
     color: var(--white);
 }
 
@@ -98,28 +97,35 @@
 
 @media all and (max-width:1298px) {
     .contact {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 43px;
+        padding-right: 34px;
         padding-bottom: 56px;
-
+        padding-top: 50px;
     }
 
     .contact__title {
         font-size: 32px;
         line-height: 38px;
+        margin-bottom: 17px;
     }
 
     .contact__text {
         font-size: 20px;
-        line-height: 23px;
+        line-height: 21px;
     }
+
+    .contact__input-form {
+        margin-bottom: 30px;
+    }
+
 
     .contact__input-name,
     .contact__input-tel, 
     .contact__input-mail {
         width: 377px;
         height: 39px;
-        margin-bottom: 21px;
+        margin-bottom: 20px;
+        margin-right: 12px;
         padding: 8px 0 0 23px;
     }
 
@@ -128,32 +134,42 @@
         line-height: 23px;
     }
 
+    .contact__btn {
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+
     .contact__agree {
         font-size: 17px;
         line-height: 20px;
+        margin-right: 10px;
     }
 }
 
 @media all and (max-width:480px) {
     .contact {
-        padding-top: 30px;
+        padding-top: 10px;
         padding-bottom: 30px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .contact__title {
         font-size: 20px;
         line-height: 23px;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
+        padding-left: 16px;
     }
     
     .contact__text {
         font-size: 12px;
         line-height: 14px;
-        margin-bottom: 35px;
+        margin-bottom: 37px;
     }
 
     .contact__input-form {
         width: 100%;
+        margin-bottom: 44px;
     }
     
     .contact__input-name,
@@ -162,11 +178,12 @@
         height: 28px;
         padding: 6px 0 6px 18.06px;
         margin-bottom: 15px;
-        width: 90vw;
+        width: 91vw;
+        margin-right: 0;
     }
 
     .contact__input-mail {
-        margin-bottom: 45px
+        margin-bottom: 0;
     }
 
     .contact input::placeholder {
@@ -178,11 +195,16 @@
     .contact__btn {
         font-size: 16px;
         line-height: 19px;    
-        margin-bottom: 30px;
-        padding: 13.62px 29.96px 12.84px 30.66px;
+        margin-bottom: 28px;
+        margin-right: 0;
+        width: 174px;
+        height: 38px;
     }
 
     .contact__agree {
         width: 90vw;
+        margin-right: 0;
+        font-size: 11px;
+        line-height: 15px;    
     }
 }
