@@ -1,0 +1,134 @@
+.header {
+    margin-bottom: 45px;
+}
+
+.header__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 85px;
+    padding-top: 30px;
+}
+
+.header__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 0.06em;
+    color: #2D2D2D;
+}
+
+span {
+    color: var(--indigo);
+}
+
+.header__btn-menu {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    align-items: center;
+    width: 151px;
+    height: 54px;
+    color: var(--main-color);
+    background: var(--indigo);
+    border-radius: 10px;
+    border: none;
+    font-size: 22px;
+    line-height: 150%;
+    font-family: 'Lato';
+}
+
+.header__input-wrapper {
+    position: relative;
+    width: 757px;
+}
+
+.header__input {
+    width: 100%;
+    height: 54px;
+    background: #EFEFEF;
+    border-radius: 30px;
+    border: none;
+}
+
+.header__input::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #8F8F8F;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.header__btn-search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 101px;
+    height: 54px;
+    background: var(--indigo);
+    border-radius: 30px;
+    border: none;
+}
+
+.header__icon-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header__wrapper-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__wrapper-icon svg {
+    margin-bottom: auto;
+}
+
+.header__text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--main-black);
+}
+
+
+@media all and (max-width:768px) {
+    .header__content {
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: max-content auto;
+        gap: 30px;
+    }
+
+    .header__btn-search {
+
+        top: 115px;
+        right:  30px;
+        width: 101px;
+    }
+
+
+
+    .header__icon-block {
+        justify-content: flex-end;
+        gap: 25px;
+
+    }
+
+    .header__btn-menu {
+
+
+        grid-row: 2/ span 1;
+    }
+
+    .header__input {
+        grid-row: 2/ span 1;
+    }
+}

@@ -1,0 +1,69 @@
+.content {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content__wrapper {
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: repeat(6, [col] 245px ) ;
+    grid-template-rows: repeat(4, [row] 245px  );
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+
+.book {
+    grid-column: col 1 / span 1;
+    grid-row: row 1 / span 1;
+  }
+
+.clock {
+    grid-column: col 2 / span 1;
+    grid-row: row 1 / span 1;
+  }
+
+  .light-sneakers {
+    grid-column: col 3 / span 2;
+    grid-row: row 1 / span 2 ;
+  }
+
+  .gift-boxes {
+    grid-column: col 5 / span 2 ;
+    grid-row: row 1 / span 1;
+  }
+
+  .tv {
+    grid-column: col 5 / span 2;
+    grid-row: row 2 / span 1;
+  }
+
+  .red-sneakers {
+    grid-column: col 1 / span 2;
+    grid-row: row 2 / span 1 ;
+  }
+
+  .year {
+    grid-column: col 1 / span 4;
+    grid-row: row 3 / span 2;
+  }
+
+  .women {
+    grid-column: col 5 / span 1;
+    grid-row: row 3 / span 2;
+  }
+
+.spray {
+    grid-column: col 6 / span 1;
+    grid-row: row 3 / span 1;
+  }
+
+.ornaments {
+    grid-column: col 6 / span 1;
+    grid-row: row 4 / span 1;
+  }

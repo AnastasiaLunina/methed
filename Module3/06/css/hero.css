@@ -1,0 +1,67 @@
+.hero {
+    padding-top: 45px;
+    margin-bottom: 30px;
+}
+
+.hero__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image: url(../assets/img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    min-height: 480px;
+    position: relative;
+}
+
+.hero__header {
+    position: absolute;
+    top: 145px;
+    left: 112px;
+    color: #ffffff;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 130%;
+}
+
+.hero__paragraph {
+    position: absolute;
+    top: 336px;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center; 
+    color: #ffffff;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.hero__paragraph-countdown {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center; 
+    color: #ffffff;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.hero__paragraph-countdown-number {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+    color: #ffffff;
+}
