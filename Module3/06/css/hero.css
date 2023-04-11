@@ -4,8 +4,7 @@
 }
 
 .hero__wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
+    max-width: 100%;
     background-image: url(../assets/img/banner.png);
     background-size: cover;
     background-repeat: no-repeat;

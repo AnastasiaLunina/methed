@@ -1,69 +1,188 @@
 .content {
     padding-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 140px;
 }
 
 .content__wrapper {
     display: grid;
     grid-gap: 60px;
-    grid-template-columns: repeat(6, [col] 245px ) ;
-    grid-template-rows: repeat(4, [row] 245px  );
+    grid-template-columns: repeat(auto-fill, [col] minmax(220px, 1fr));
+    grid-template-rows: repeat(4, [row] minmax(220px, 1fr));}
+
+.content__box {
+    background: linear-gradient(181.33deg, rgba(0, 0, 0, 0) 9.23%, rgba(0, 0, 0, 0.2) 98.87%);
+    border-radius: 20px;
 }
 
-.box {
-    background-color: #444;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-  }
-
-.book {
+.content__box-book {
+    background-image: url(../assets/img/book.png);
     grid-column: col 1 / span 1;
     grid-row: row 1 / span 1;
   }
 
-.clock {
+.content__box-clock {
+    background-image: url(../assets/img/clock.png);
     grid-column: col 2 / span 1;
     grid-row: row 1 / span 1;
   }
 
-  .light-sneakers {
+.content__box-light-sneakers {
+    background-image: url(../assets/img/sneakers.png);
     grid-column: col 3 / span 2;
     grid-row: row 1 / span 2 ;
-  }
+}
 
-  .gift-boxes {
+.content__box-gift-boxes {
+    background-image: url(../assets/img/wrapped_gift.png);
     grid-column: col 5 / span 2 ;
     grid-row: row 1 / span 1;
-  }
+}
 
-  .tv {
+.content__box-tv {
+    background-image: url(../assets/img/laptop.png);
     grid-column: col 5 / span 2;
     grid-row: row 2 / span 1;
-  }
+}
 
-  .red-sneakers {
+.content__box-red-sneakers {
+    background-image: url(../assets/img/red.png);
     grid-column: col 1 / span 2;
     grid-row: row 2 / span 1 ;
-  }
+}
 
-  .year {
+.content__box-year {
+    background-image: url(../assets/img/2022.png);
     grid-column: col 1 / span 4;
     grid-row: row 3 / span 2;
-  }
+}
 
-  .women {
+.content__box-women {
+    background-image: url(../assets/img/women.png);
     grid-column: col 5 / span 1;
     grid-row: row 3 / span 2;
-  }
+}
 
-.spray {
+.content__box-spray {
+    background-image: url(../assets/img/spray.png);
     grid-column: col 6 / span 1;
     grid-row: row 3 / span 1;
-  }
+}
 
-.ornaments {
+.content__box-ornaments {
+    background-image: url(../assets/img/ornaments.png);
     grid-column: col 6 / span 1;
     grid-row: row 4 / span 1;
-  }
+}
+
+.content__box-book,
+.content__box-clock, 
+.content__box-light-sneakers,
+.content__box-gift-boxes,
+.content__box-tv,
+.content__box-red-sneakers,
+.content__box-year,
+.content__box-women,
+.content__box-spray {
+    position: relative;
+}
+
+.content__box_text {
+    font-family: 'Lato';
+    font-style: normal;
+    color: #FFFFFF;
+    position: absolute;
+    line-height: 130%;
+    font-weight: 700;
+}
+
+.content__box_text-book {
+    font-size: 30px;
+    top: 60px;
+    left: 20px;
+}
+
+.content__box_text-clock {
+    font-size: 30px;
+    top: 60px;
+    left: 14px;
+}
+
+.content__box_text-discount {
+    font-size: 30px;
+    background-color: #FFBD13;
+    border-radius: 50%;
+    padding: 25px 9px; 
+    display: inline;
+}
+
+.content__box_text-discount-clock {
+    bottom: 27px;
+    right: 20px;
+}
+
+.content__box_text-light-sneakers {
+    font-weight: 400;
+    font-size: 40px;
+    background-color: #38C0EB;
+    border-radius: 20px;
+    padding: 24px 20px; 
+    display: inline;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.content__box_text-gift-boxes {
+    font-size: 40px;
+    bottom: 30px;
+    left: 30px;
+}
+
+.content__box_text-tv {
+    font-size: 40px;
+    bottom: 40px;
+    left: 30px;
+}
+
+.content__box_text-discount-tv {
+    right: 20px;
+    bottom: 20px;
+}
+
+.content__box_text-discount-red-sneakers {
+    top: 20px;
+    left: 20px;
+}
+
+.content__box_text-year {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px 40px; 
+    display: inline;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #F91155;
+    bottom: 50px;
+    left: 50px;
+}
+
+.content__box_text-discount-women {
+    bottom: 20px;
+    right: 20px;
+}
+
+.content__box_text-light-spray {
+    font-size: 30px; 
+    bottom: 37px;
+    left: 20px;
+}
+
+.content__box_text-discount-spray {
+    top: 10px;
+    left: 20px;
+}
+
+@media all and (max-width: 1700px) {
+    
+}
+

@@ -100,7 +100,11 @@ span {
 }
 
 
-@media all and (max-width:768px) {
+@media all and (max-width: 1770px) {
+    
+}
+
+/* @media all and (max-width:768px) {
     .header__content {
         grid-template-rows: repeat(2, auto);
         grid-template-columns: max-content auto;
@@ -131,4 +135,4 @@ span {
     .header__input {
         grid-row: 2/ span 1;
     }
-}
+} */
